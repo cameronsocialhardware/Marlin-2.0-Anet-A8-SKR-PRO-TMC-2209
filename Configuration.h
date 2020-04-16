@@ -487,9 +487,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 21
-  #define DEFAULT_Ki 1.25
-  #define DEFAULT_Kd 86.0
+#define DEFAULT_Kp 37.01
+#define DEFAULT_Ki 3.79
+#define DEFAULT_Kd 90.30
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1100,8 +1100,8 @@
 #define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -33
-#define Y_MIN_POS -10
+#define X_MIN_POS 0
+#define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
