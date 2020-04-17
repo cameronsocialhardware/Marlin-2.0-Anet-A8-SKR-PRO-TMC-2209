@@ -486,7 +486,7 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Ultimaker
+  // E3D V6 Hotend on 12V
 #define DEFAULT_Kp 37.01
 #define DEFAULT_Ki 3.79
 #define DEFAULT_Kd 90.30
@@ -734,7 +734,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 837 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 625 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1483,9 +1483,9 @@
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 180
+#define PREHEAT_1_TEMP_HOTEND 200
 #define PREHEAT_1_TEMP_BED     70
-#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "ABS"
 #define PREHEAT_2_TEMP_HOTEND 240
